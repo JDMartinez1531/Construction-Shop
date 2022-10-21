@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap";
 import Layout from "./components/Layout";
+import HomeScreen from "./screens/HomeScreen";
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <Layout>
         <main className="py-3">
           <Container>
-            <h1>Welcome to Construction Shop</h1>
+            <HomeScreen />
           </Container>
         </main>
       </Layout>
